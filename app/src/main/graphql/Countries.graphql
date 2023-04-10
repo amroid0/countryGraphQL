@@ -1,0 +1,10 @@
+query Countries {
+    countries {
+        code
+        name
+        emoji
+        states {
+            name
+        }
+    }
+}
