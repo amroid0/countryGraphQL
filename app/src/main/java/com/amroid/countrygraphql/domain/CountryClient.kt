@@ -5,5 +5,5 @@ import com.amroid.CountryQuery
 
 interface CountryClient {
   suspend fun getCountries():List<Country>
-  suspend fun getCountry(code:String):List<CountryDetail>
+  suspend fun getCountry(code:String): CountryDetail?
 }
